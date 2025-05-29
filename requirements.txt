@@ -1,0 +1,5 @@
+python-telegram-bot
+requests
+phonenumbers
+asyncio
+nest_asyncio
