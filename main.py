@@ -26,7 +26,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 if not os.path.exists(config_file):
     print("First-time setup: Please enter the following credentials.")
-    TG_USERNAME = input("Group Owner Username: ").strip()
+    TG_USERNAME = input("Group Owner Usernamee: ").strip()
     admin_id = input("Admin ID: ").strip()
     BOT_TOKEN = input("BOT_TOKEN: ").strip()
     CHAT_ID = input("CHAT_ID: ").strip()
